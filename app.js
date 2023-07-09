@@ -15,10 +15,10 @@ let corsOptions = {
 };
 app.use(cors(corsOptions));
 
-app.use(express.static(path.join(__dirname, 'test/build')));
+app.use(express.static(path.join(__dirname, 'src/build')));
 
 app.get('*',(req,res)=>{
-  res.sendFile(path.join(__dirname, 'test/build/index.html'));
+  res.sendFile(path.join(__dirname, 'src/build/index.html'));
 })
 
 module.exports = app
