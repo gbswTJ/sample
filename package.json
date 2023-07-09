@@ -3,5 +3,31 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2"
-  }
+  },
+  "name": "sample",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "sample": "bin/www.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified",
+    "start": "node bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbswTJ/sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbswTJ/sample/issues"
+  },
+  "homepage": "https://github.com/gbswTJ/sample#readme",
+  "description": ""
 }
